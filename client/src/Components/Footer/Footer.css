@@ -1,0 +1,25 @@
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    /* color: #1a1a1a; */
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-copyright hr{
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    height: 2px;
+    background: #95b0db;
+}
+@media(max-width:800px){
+    .footer-links{
+        gap: 20px;
+        font-size: 14px;
+    }
+}
